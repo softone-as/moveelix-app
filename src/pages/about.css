@@ -1,0 +1,19 @@
+.about {
+  display: grid;
+  margin-top: 10rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 64px;
+  grid-row-gap: 0px;
+  min-height: 100vh;
+}
+
+.title-about {
+  color: white;
+}
+.title-about h1 {
+  font-size: 3rem;
+}
+
+.image-about img {
+  width: 500px;
+}

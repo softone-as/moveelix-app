@@ -1,0 +1,32 @@
+.ant-layout {
+  background-color: #223350 !important;
+}
+
+.search-data-table > table {
+  border: 1px solid white !important;
+  background-color: rgb(136, 92, 92);
+}
+
+.search-data-table > table > th {
+  border: 1px solid white !important;
+  background-color: rgb(177, 25, 25);
+}
+.search-data-table > td {
+  border: 1px solid white;
+  background-color: #fff;
+}
+
+.all-movie-list,
+.all-game-list {
+  min-height: 100vh;
+  margin-top: 5rem;
+}
+
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+
+.site-card-border-less-wrapper img {
+  max-width: 250px;
+}

@@ -1,0 +1,54 @@
+body {
+  max-height: 100%;
+  color: #fff;
+}
+
+.register {
+  display: grid;
+  margin-top: 10rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 64px;
+  grid-row-gap: 0px;
+  margin-bottom: 5rem;
+  min-height: 90vh;
+}
+
+.form-register {
+  color: white;
+}
+.form-register h1 {
+  font-size: 2rem;
+}
+.form-register p {
+  font-weight: 500;
+}
+
+.image-register img {
+  width: 500px;
+}
+.register-form {
+  color: white !important;
+}
+
+.ant-form-item {
+  width: 90%;
+  color: white;
+}
+.ant-form-item-control,
+.ant-form-item-label {
+  color: white;
+}
+
+.register-form-button {
+  width: 100%;
+  background-color: #c4a35a;
+  border: 0;
+}
+
+.register-form-button:hover {
+  background-color: #e0b24d;
+}
+
+.ant-checkbox-wrapper span {
+  color: white;
+}

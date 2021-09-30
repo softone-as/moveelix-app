@@ -1,0 +1,103 @@
+.introduction-hero {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 64px;
+  grid-row-gap: 0px;
+}
+
+.hero-description {
+  grid-area: 1 / 1 / 2 / 2;
+  color: white;
+  margin: auto 0;
+}
+
+.hero-description h1 {
+  font-size: 2rem;
+}
+.hero-description span {
+  color: #c4a35a;
+}
+.hero-description p {
+  color: #ccccc2;
+  line-height: 1.6;
+}
+
+.hero-images {
+  grid-area: 1 / 2 / 2 / 3;
+  margin: auto;
+}
+
+.hero-images img {
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #172236;
+}
+
+/* Movies Section */
+.section-movie,
+.section-games {
+  display: grid;
+  margin-top: 10rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 32px;
+}
+
+.title-movie,
+.title-games {
+  color: white;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.title-movie h1,
+.title-games h1 {
+  font-size: 2rem;
+}
+
+.card-movie,
+.card-games {
+  position: relative;
+}
+.best-movie img,
+.best-games img {
+  width: 100%;
+}
+.best-movie p,
+.best-games p {
+  color: #ccccc2;
+}
+
+.list-movie,
+.list-games {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* z-index: -1; */
+}
+
+.card-img {
+  display: block;
+  max-height: 200px;
+  width: 100%;
+}
+
+.overlay-text-movie,
+.overlay-text-games {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.overlay-text-movie:hover,
+.overlay-text-games:hover {
+  opacity: 1;
+}
